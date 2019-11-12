@@ -1,0 +1,40 @@
+:root {
+  --dark-primary-color: #1976D2;
+  --default-primary-color: #2196F3;
+  --light-primary-color: #BBDEFB;
+  --text-primary-color: #FFFFFF;
+  --accent-color: #FF5722;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --divider-color: #BDBDBD;
+  --title-h1: 1.5rem;
+  --title-h2: 1.3rem;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  direction: rtl;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}

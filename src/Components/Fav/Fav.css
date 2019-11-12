@@ -1,0 +1,27 @@
+.fav{
+    background: var(--accent-color);
+    color: var(--text-primary-color);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    user-select: none;
+    cursor: pointer;
+    transition: all 20ms;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 3px 3px 9px gray;
+    transform: scale(1.2);
+}
+
+.fav:active{
+    transform: scale(1);
+    box-shadow: 6px 6px 18px gray;
+}
+

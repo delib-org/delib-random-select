@@ -1,0 +1,13 @@
+.header{
+    background: var(--default-primary-color);
+    color: var(--text-primary-color);
+    font-size: var(--title-h1);
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+}
+
+.header>img{
+    max-height: 90px;
+    margin: 20px;
+}
